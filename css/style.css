@@ -1,0 +1,273 @@
+/*Estrutura principal*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, sans-serif;
+}
+
+/*Formatação container*/
+
+#container {
+    height: 250px;
+    background: #023047 url(../img/silhuete-cidade-4.png) repeat-x bottom;
+    background-size: 350px;
+}
+
+#container-principal {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#topo {
+    margin-bottom: 120px;
+}
+
+/*Formatação logo*/
+
+#logo {
+    padding: 25px 0;
+    margin-bottom: 25px;
+    background: url(../img/logo.png) no-repeat center;
+    background-size: 300px;
+}
+
+#logo h1 {
+    margin-left: -9000px;
+}
+
+/*Formatação menu*/
+
+#menu {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+#menu ul {
+    
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+    padding: 10px 0;
+    background-color: #fb8500;
+    margin: 0 auto;
+}
+
+#menu li a {
+    padding: 13px 20px;
+    text-decoration: none;
+    color: #023047;
+    font-size: 0.9em;
+}
+
+#menu li a:hover {
+    background-color: #ffb703;
+}
+
+#home #navegacao .home,
+#brasil #navegacao .brasil,
+#internacional #navegacao .internacional,
+#economia #navegacao .economia,
+#saude #navegacao .saude,
+#ciencia #navegacao .ciencia,
+#fotos #navegacao .fotos {
+    background: #ffb703;
+    cursor: text;
+}
+
+/*Formatação conteudo*/
+
+#conteudo {
+    width: 100%;
+}
+
+/*Formatação conteudo lateral*/
+
+#conteudo-lateral {
+    width: 200px;
+    float: left;
+    margin: 0 0 0 -800px;
+}
+
+#duas-colunas {
+    width: 580px;
+    float: left;
+    margin: 0 0 20px 220px;
+}
+
+#uma-coluna {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*Formatação conteudo principal*/
+
+#principal-primario {
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 220px;
+}
+
+#principal-secundario {
+    width: 280px;
+    float: left;
+    margin: 0 0 20px 20px;
+}
+
+/*Formatação caixas*/
+.caixa {
+    margin: 10px 0;
+    padding: 5px 0;
+    background: #fff url(../img/textura-fundo.png) center ;
+    background-size: 100px;
+}
+
+h2 {
+    padding: 5px;
+    font-size: 1em;
+    background: #023047;
+    color: #fff;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#conteudo-lateral .caixa-conteudo li {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#conteudo-lateral .caixa-conteudo li a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #023047;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#conteudo-lateral .caixa-conteudo li a:hover {
+    background: #f8f8f8;
+    color: #fb8500;
+    padding-left: 20px;
+}
+
+label {
+    display: block;
+    font-size: 0.9em;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+#email, #nome, #telefone {
+    color: #023047;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+.submit {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fb8500;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Formatação conteudo*/
+
+h3 {
+    display: block;
+    padding: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background: #fb8500;
+    color: #fff;
+}
+
+
+img {
+    width: 99%;
+    height: 50%;
+    border: 1px solid #023047;
+}
+
+.caixa-conteudo p {
+    font-size: 0.7em;
+    text-align: justify;
+    color: #023047;
+}
+
+.caixa-conteudo a {
+    font-size: 0.85em;
+    color: #fb8500;
+}
+
+#principal-primario a:hover,
+#principal-secundario a:hover {
+    color: #023047;
+} 
+
+/*Caixa com links*/
+
+#conteudo-navegacao li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+    list-style: none;
+}
+
+#conteudo-navegacao a {
+    text-decoration: none;
+}
+
+#conteudo-navegacao li a img {
+    height: 50px;
+    width: 90px;
+    float: left;
+    margin: 5px;
+    border: none;
+}
+
+#conteudo-navegacao li a h4 {
+    margin-top: 5px;
+    font-size: 0.9em;
+    padding: 0;
+    color: #fb8500;
+}
+
+#conteudo-navegacao li a p {
+    font-size: 0.7em;
+    color: #023047
+}
+
+#conteudo-navegacao li:hover {
+    background: #f8f8f8;
+    cursor: pointer;
+}
+
+/*Formatação rodape*/
+
+#rodape {
+    clear: both;
+    background-color: #023047;
+    color: #fb8500;
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
